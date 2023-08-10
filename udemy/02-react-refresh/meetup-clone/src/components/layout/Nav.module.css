@@ -1,0 +1,7 @@
+.header {
+    background-color: rgb(184, 43, 57);
+    padding: 0.5rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+}

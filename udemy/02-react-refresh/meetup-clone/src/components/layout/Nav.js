@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import classes from './Nav.module.css'
 
 const Nav = () => {
     return (
-        <header>
-            <div>
+        <header className={classes.header}>
+            <div className='button'>
                 [MC]
             </div>
-            <nav>
+            <nav className={classes.nav}>
                 <ul>
                     <li className="button">
                         <Link to='/'>Meetups</Link>
