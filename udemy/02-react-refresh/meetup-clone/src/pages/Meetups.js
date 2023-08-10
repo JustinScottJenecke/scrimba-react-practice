@@ -1,6 +1,6 @@
 const MeetupsPage = () => {
     return (
-        <h1>All Meetups</h1>
+        <h1 className="title">All Meetups</h1>
     )
 }
 
