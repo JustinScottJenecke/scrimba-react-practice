@@ -9,13 +9,13 @@ const Nav = () => {
             </div>
             <nav className={classes.nav}>
                 <ul>
-                    <li className="button">
+                    <li className="button mx-2">
                         <Link to='/'>Meetups</Link>
                     </li>
-                    <li className="button">
+                    <li className="button mx-2">
                         <Link to='/new-meetup'>New Meetup</Link>
                     </li>
-                    <li className="button">
+                    <li className="button mx-2">
                         <Link to='/favorites'>Favorites</Link>
                     </li>
                 </ul>
