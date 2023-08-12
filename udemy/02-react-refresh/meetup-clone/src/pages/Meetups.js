@@ -1,18 +1,12 @@
 import { MEETUPS } from '../data/dummy'
+//import MeetupList from '../components/meetups/MeetupList'
+import MeetupList from "../components/meetups/MeetupList";
 
 const MeetupsPage = () => {
     return (
         <section>
             <h1 className="title">All Meetups</h1>
-            <ul>
-                {
-                    MEETUPS.map( (meetup) => {
-                        return (
-                            <li key={meetup.id}>{meetup.title}</li>
-                        )
-                    })
-                }
-            </ul>
+            { <MeetupList meetups={MEETUPS}/> }
         </section>
     )
 }
