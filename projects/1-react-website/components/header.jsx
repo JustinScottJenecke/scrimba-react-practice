@@ -3,7 +3,12 @@ import Nav from "./nav";
 const Header = () => {
     return (
         <header>
-            <nav></nav>
+            <button>
+                Dev.to
+            </button>
+            <Nav />
         </header>
     )
 }
+
+export default Header

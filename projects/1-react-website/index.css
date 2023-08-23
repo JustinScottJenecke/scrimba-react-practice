@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+.header {
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    color: white;
+}
+
+.section {
+    padding: 1rem 3rem;
+    color: rgb(32, 32, 32);
+}
+
+.logo {
+    background-color:rgb(24, 115, 164);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+}
+
+.nav-items {
+    flex:  3;
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+Footer {
+    background-color: rgb(96, 96, 96);
+    color: white;
+    margin: 0;
+    padding:1rem;
+}
+
+.footer-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
