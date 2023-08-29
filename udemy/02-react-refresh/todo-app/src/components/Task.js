@@ -20,7 +20,10 @@ const Task = (props) => {
                 <div>For: {props.for}</div>
                 <div>Due date: {props.date}</div>
                 <div>
-                    <button className="button is-warning mr-1" onClick={completeBtnHandler}>Complete</button>
+                    {/* <button className="button is-warning mr-1" onClick={completeBtnHandler}>Complete</button> */}
+                    <button className="button is-warning mr-1" onClick={completeBtnHandler}>
+                        Complete
+                    </button>
                     <button className="button is-info ml-1">Update</button>
                 </div>
 

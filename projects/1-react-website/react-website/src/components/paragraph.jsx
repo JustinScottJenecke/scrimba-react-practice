@@ -11,18 +11,6 @@ const Paragraph = (props) => {
                 rgre gergrggre rgrgreg dfvtrhyth rtgwefwefdcvrehgr gregergre trhbgw4gewr getrhthehg 
                 g egerergrkgmrlekr vvrkkrv rvlrklekfemdlwe njefn kwerv vjwnew ewofewvelve wrvewvlr
             </p>
-
-            <p>
-                lorem ipsumswlgk v;ejrnbrjb;jn  in ijoijoih uygug uygtrdyt gv r efewghrehg re reg
-                rgre gergrggre rgrgreg dfvtrhyth rtgwefwefdcvrehgr gregergre trhbgw4gewr getrhthehg 
-                g egerergrkgmrlekr vvrkkrv rvlrklekfemdlwe njefn kwerv vjwnew ewofewvelve wrvewvlr
-            </p>
-
-            <p>
-                lorem ipsumswlgk v;ejrnbrjb;jn  in ijoijoih uygug uygtrdyt gv r efewghrehg re reg
-                rgre gergrggre rgrgreg dfvtrhyth rtgwefwefdcvrehgr gregergre trhbgw4gewr getrhthehg 
-                g egerergrkgmrlekr vvrkkrv rvlrklekfemdlwe njefn kwerv vjwnew ewofewvelve wrvewvlr
-            </p>
         </section>
     )
 }

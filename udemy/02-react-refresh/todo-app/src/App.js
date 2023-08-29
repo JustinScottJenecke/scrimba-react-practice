@@ -1,13 +1,13 @@
 
 import Heading from "./components/Heading";
 
-import Tasks from "./components/Tasks";
+import TasksList from "./components/TasksList";
 
 function App() {
   return (
     <div className="App">
       <Heading />
-      <Tasks />
+      <TasksList />
       {/* <Overlay/>
       <CompleteTask/> */}
     </div>

@@ -3,9 +3,9 @@ import Nav from "./nav";
 const Header = () => {
     return (
         <header className='header'>
-                <button className='logo'>
-                    Dev.to
-                </button>
+            <button className='logo'>
+                React.to
+            </button>
             <Nav />
         </header>
     )
